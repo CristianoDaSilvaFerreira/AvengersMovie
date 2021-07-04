@@ -1,61 +1,483 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avengers Movies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Movies</title>
 
-  <!-- font awesome cdn link  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <!-- custom css file link  -->
-  <link rel="stylesheet" href="css/style.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
+    
+<!-- header section starts  -->
 
-  <!-- header section starts -->
-  <header>
+<header>
 
-    <a href="#" class="logo"><span>Avengers</span>movies</a>
+    <a href="#" class="logo"><span>Avengers</span>Movies</a>
 
     <div id="menu" class="fas fa-bars"></div>
-  
+
     <nav class="navbar">
-      <ul>
-        <li><a href="#home" class="active">Início</a></li>
-        <li><a href="#galerry">Galeria</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#movies">movies</a></li>
-        <li><a href="#product">Produto</a></li>
-      </ul>
+        <ul>
+            <li><a class="active" href="#home">Início</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#movies">Filmes</a></li>
+            <li><a href="#product">Produtos</a></li>
+        </ul>
     </nav>
 
-  </header>
-  <!-- header section end -->
-  <section class="home" id="home">
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
 
     <div class="content">
-      <h3>os incríveis vingadores</h3>
-      <h1>bem-vidos marvel fãs</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti similique sint deserunt asperiores tempora dignissimos porro repellat ipsam ipsa voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p>
-      <a href="#" class="btn">iniciar</a>
+        <h3>Os Incrívesi Vingadores</h3>
+        <h1>Bem-Vindos Marvel Fãs</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit eum obcaecati dolorem unde. Iusto possimus sequi officiis harum architecto!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, earum!
+        </p>
+        <a href="#" class="btn">Início</a>
     </div>
 
     <div class="image">
-      <img src="images/spider-bg.png" class="bg" alt="homem-aranha no traje aranha de ferro">
+        <img src="images/spider-bg.png" alt="Homem-Aranha">
     </div>
-  </section>
-  <!-- home section starts -->
 
-  <!-- home section ends -->
-  <!-- jquery cdn link  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</section>
 
-  <!-- custom js file link  -->
-  <script src="js/script.js"></script>
+<!-- home section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+ <h1 class="heading"> <span>Super-Heróis</span> Galeria </h1>
+
+ <div class="box-container">
+
+    <div class="box">
+        <img src="images/img1-min.png" alt="Capitão América">
+        <div class="info">
+            <h3>Capitão América</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img2-min.png" alt="Thor">
+        <div class="info">
+            <h3>Thor</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img3-min.png" alt="Homem-Formiga">
+        <div class="info">
+            <h3>Homem-Formiga</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img4-min.png" alt="Drax">
+        <div class="info">
+            <h3>Drax</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img5-min.png" alt="Capitã Marvel">
+        <div class="info">
+            <h3>Captã Marvel</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img6-min.png" alt="Homem-Aranha">
+        <div class="info">
+            <h3>Homem-Aranha</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img7-min.png" alt="Doutor Estranho">
+        <div class="info">
+            <h3>Dotor Estranh</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img8-min.png" alt="Pantera-Negra">
+        <div class="info">
+            <h3>Pantera Negra</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img9-min.png" alt="Homem de Ferro">
+        <div class="info">
+            <h3>Homem de Ferro</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">Leia Mais</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+      <img src="images/img10-min.png" alt="Gavião Arqueiro">
+      <div class="info">
+        <h3>Gavião Arqueiro</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img11-min.png" alt="Groot">
+      <div class="info">
+        <h3>Groot</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img12-min.png" alt="Viúva Negra">
+      <div class="info">
+        <h3>Viúva Negra</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img13-min.png" alt="Hulk">
+      <div class="info">
+        <h3>Hulk</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img14-min.png" alt="Visão">
+      <div class="info">
+        <h3>Visão</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img15-min.png" alt="Máquina de Combate">
+      <div class="info">
+        <h3>Máquina de Combate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img16-min.png" alt="Feiticeira Escarlete">
+      <div class="info">
+        <h3>Feiticeira Escarlete</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img17-min.png" alt="Loki">
+      <div class="info">
+        <h3>Loki</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img18-min.png" alt="Falcão Negro">
+      <div class="info">
+        <h3>Falcão Negro</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img19-min.png" alt="Rocket">
+      <div class="info">
+        <h3>Rocket</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img20-min.png" alt="Senhor da Estrelas">
+      <div class="info">
+        <h3>Senhor da Estrelas</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/img21-min.png" alt="Nick Fury">
+      <div class="info">
+        <h3>Nick Fury</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ad!</p>
+        <a href="#" class="btn">Leia mais</a>
+      </div>
+    </div>
+
+ </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>sobre os </span> Vingadores </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img-min.png" alt="Os Vingadores">
+        </div>
+
+        <div class="content">
+            <h3>Os incríveis Vingadores da Marvel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, optio consequuntur. Iusto molestias harum, doloremque recusandae at voluptate et voluptatibus, dolore, in reiciendis pariatur. Veritatis dicta ab dolor dignissimos eius!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates maxime nulla fuga ratione et commodi expedita qui suscipit culpa similique.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- movies section starts  -->
+
+<section class="movies" id="movies">
+
+    <h1 class="heading"> <span>marvel</span> movies </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/m1-min.jpg" alt="Post Filme os Vingadores - 2012">
+            <div class="info">
+                <h3>Os Vingadores - 2012</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assista online</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/m2-min.jpg" alt="Post Filme os Vingadores: Era de Ultron">
+            <div class="info">
+                <h3>Os Vingadores: Era de Ultron</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assista online</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/m3-min.jpg" alt="Post Filme os Vingadores: Guerra Cívil">
+            <div class="info">
+                <h3>Capitão América: Guerra Cívil</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assista online</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/m4-min.jpg" alt="Post Filme os Vingadores: Guerra Infinita">
+            <div class="info">
+                <h3>Os Vingadores: Guerra Infinita</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assita online</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/m5-min.jpg" alt="Thor Ragnarok">
+            <div class="info">
+                <h3>Thor Ragnarok</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assista online</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/m6-min.jpg" alt="Post Filme os Vingadores: Ultimato">
+            <div class="info">
+                <h3>Os Vingadores: Ultimato</h3>
+                <span> ação, ficção científica, suspense, comédia </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos sint velit magni. Exercitationem modi assumenda odio, enim sequi voluptatem.</p>
+                <a href="#" class="btn">assista online</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- movies section ends -->
+
+<!-- product section starts  -->
+
+<section class="product" id="product">
+
+    <h1 class="heading"> <span>Marvel</span> Produtos </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Produto 1</h3>
+            <img src="images/p1-min.png" alt="">
+            <div class="price">R$30.00</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugiat perspiciatis libero mollitia non accusamus recusandae modi iste harum animi?</p>
+            <a href="#" class="btn">Add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <h3>Produto 2</h3>
+            <img src="images/p2-min.png" alt="">
+            <div class="price">R$30.00</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugiat perspiciatis libero mollitia non accusamus recusandae modi iste harum animi?</p>
+            <a href="#" class="btn">Add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <h3>Produto 3</h3>
+            <img src="images/p3-min.png" alt="">
+            <div class="price">$R30.00</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugiat perspiciatis libero mollitia non accusamus recusandae modi iste harum animi?</p>
+            <a href="#" class="btn">Add ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <h3>Produto 4</h3>
+            <img src="images/p4-min.png" alt="">
+            <div class="price">$30.00</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugiat perspiciatis libero mollitia non accusamus recusandae modi iste harum animi?</p>
+            <a href="#" class="btn">Add ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- product section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="share">
+        <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+    </div>
+
+    <h1 class="credit"> criado por <a href="#"> C&A web designer </a> all rights reserved! </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home" class="scroll-top">
+    <img src="images/scroll-img-min.png" alt="">
+</a>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
 </body>
-
 </html>
