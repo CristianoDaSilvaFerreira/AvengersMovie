@@ -25,3 +25,11 @@ Para criar esse projeto, foi utilizado
 ***
 ![filmes](https://user-images.githubusercontent.com/68359459/124390244-0247f080-dcc1-11eb-8f69-bea57b4715f4.png)
 
+## Apresentação
+
+Segui um pequeno vídeo para facilitar a visualização do projeto
+
+![Avengers Movie Video](https://github.com/CristianoDaSilvaFerreira/AvengersMovie/blob/main/avengersMovie.gif)
+
+Ou pode visitar a própria página no endereço [avengersmovies](https://cristianodasilvaferreira.github.io/AvengersMovie/)
+
